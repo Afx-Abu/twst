@@ -5,6 +5,8 @@ const connection = mysql.createPool({
     user: 'root',
     password: 'wlAeKZhmBojdrbvIHqLKKFSWSbitltyA',
     database: 'railway',
+    port: 11033 // Make sure to include the port if it's not the default 3306
 });
+
 
 export default connection;
